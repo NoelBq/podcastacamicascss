@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Podcasts Project</title>
+  <link rel="stylesheet" href="./style/main.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="nav-bar">
+    <img class="logo-container" src="./images/logo.svg" alt="Podcastslogo">
+    <input type="checkbox" id="chk-nav-bar">
+    <ul class="menu-options">
+      <li><a class="menu-options-links" href="#episodios">Episodios</a></li>
+      <li><a class="menu-options-links" href="#nosotros">Nosotros</a></li>
+      <li><a class="menu-options-links" href="#entrevistas">Entrevistas</a></li>
+      <li><a class="menu-options-links" href="#topicos">Topicos</a></li>
+    </ul>
+    <label for="chk-nav-bar" id="burger-close" class="burger-close"><span>&#x2716;</span></label>
+    <label for="chk-nav-bar" id="burger-open"><span class="hamburger">☰</span></label>
+  </nav>
+  
+  <section class="welcome">
+    <h1 class="welcome-title">Hello <span style="text-decoration: line-through;">world</span> pale blue dot.</h1>
+    <p class="welcome-description">Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+    <div class="wcbcontainer">
+      <button class="welcome-button">CONOCÉ MÁS</button>
+    </div>
+  </section>
+  <section  class="episodes" id="episodios"> 
+    <div class="angular-background">
+      <div class="angular-content">
+        <h2 class="unskew">Episodios</h2>
+        <div class="episodewrap unskew">
+          <div class="episode">
+            <iframe  class="framesty" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" height="232" allow="encrypted-media"></iframe>
+          </div>
+          <div class="episode">
+            <iframe class="framesty" src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" height="232" allow="encrypted-media"></iframe>
+          </div> 
+          <div class="episode">
+            <iframe class="framesty" src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" height="232" allow="encrypted-media"></iframe>
+          </div> 
+          <div class="episode">
+            <iframe class="framesty" src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" height="232" allow="encrypted-media"></iframe>
+          </div> 
+        </div>
+      </div>
+    </div>
+    </section>
+    <section class="ddwrap" id="nosotros">
+      <div class=imgwrap>
+        <img class="imgph" src="./images/phone.png" alt="phoneimg">
+      </div>
+      <div class="containerwrap">
+        <div class="container1">
+          <h2>De dónde venimos</h2>
+        </div>
+        <div class="container2">
+          <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. 
+            Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+          </div>
+        </div>
+      </section>
+      <section id="entrevistas">
+        <div class="invest">
+          <h2>Invitadas/os estelares</h2>
+        </div>
+        <div class="gallerywrap">
+          <img src="./images/grace-hopper.png" alt="gracehopperimg">
+          <img src="./images/Katie-Bouman.png" alt="kboumanimg">
+          <img src="./images/Margaret_Hamilton.png" alt="mhamiltonimg">
+          <img src="./images/An%20E.R.A.Univac%201103%20computer%20in%20the%201950s.png" alt="ERAimg">
+          <img src="./images/Computer%20operators%20with%20an%20Eniac%20the%20world's%20first%20programmable%20general-purpose%20computer.png" alt="compopimg">
+          <img src="./images/susan-kare.png" alt="skareimag">
+        </div>
+      </section>
+      <section id="topicos">
+        <div class="ntems">
+          <h2>Algunos de nuestros temas</h2>
+        </div>
+        <div class="themewrap">
+          <div class="themeitem">
+            <img src="./images/icon1.svg" alt="trabajoremotoicon">
+            <p class="icontext">Trabajo remoto</p>
+          </div>
+          <div class="themeitem">
+            <img src="./images/icon2.svg" alt="repensandolaprogramacionicon">
+            <p class="icontext">Repensando la programación</p>
+          </div>
+          <div class="themeitem">
+            <img src="./images/icon3.svg" alt="basesdecodigoicon">
+            <p class="icontext">Bases de codigo</p>
+          </div>
+          <div class="themeitem">
+            <img src="./images/icon4.svg" alt="seguridadinformatica">
+            <p class="icontext">Seguridad informática</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="novcontainer">
+          <div class="square-background">
+            <div class="text-container">
+              <h2>¿Querés las últimas novedades?</h2>
+              <button class=nov-button>ESCUCHÁ LOS EPISODIOS</button>
+            </div> 
+          </div>
+      </div>
+    </section>
+    <footer>
+       <div class="footerflex">
+        <div class="footertextcontainer">
+          <span class="footertext">© 2019— Hello blue pale dot</span>
+         </div>
+         <div class="socialcontainer">
+           <a class="socialicon" href="https://www.spotify.com/" target="_blank"><i class="fa fa-spotify"></i></a>
+           <a href="https://www.instagram.com/" class="socialicon" target="_blank"><i class="fa fa-instagram"></i></a>
+           <a href="https://www.twitter.com" class="socialicon" target="_blank"><i class="fa fa-twitter"></i></a>
+           <a href="https://www.facebook.com" class="socialicon" target="_blank"><i class="fa fa-facebook"></i></a>
+           <a href="https://web.telegram.org/" class="socialicon" target="_blank"><i class="fa fa-telegram"></i></a>
+          </div>
+        </div>
+    </footer>
+  </body>
+  </html>
